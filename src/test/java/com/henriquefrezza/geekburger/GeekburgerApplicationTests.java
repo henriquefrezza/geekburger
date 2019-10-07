@@ -11,6 +11,6 @@ public class GeekburgerApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.setProperty("java.awt.headless", "false");
 	}
-
 }
